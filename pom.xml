@@ -16,7 +16,7 @@
     </scm>
 
     <properties>
-        <tagSuffix/>
+        <tagSuffix>.HEYO</tagSuffix>
     </properties>
     <build>
         <plugins>
