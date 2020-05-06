@@ -38,12 +38,13 @@
             </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-		<artifactId>maven-release-plugin</artifactId>
-		<version>3.0.0-M1</version>
+                <artifactId>maven-release-plugin</artifactId>
+                <version>3.0.0-M1</version>
                 <configuration>
                     <tagNameFormat>@{project.version}${tagSuffix}</tagNameFormat>
                     <autoVersionSubmodules>true</autoVersionSubmodules>
                     <releaseProfiles>release</releaseProfiles>
+                    <stagingRepository>https://oss.sonatype.org/service/local/staging/deploy/maven2/</stagingRepository>
                 </configuration>
             </plugin>
             <plugin>
