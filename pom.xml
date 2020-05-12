@@ -4,13 +4,13 @@
 
     <groupId>org.jboss.pnc</groupId>
     <artifactId>empty</artifactId>
-    <version>1.1.5-SNAPSHOT</version>
+    <version>1.1.5</version>
 
     <scm>
         <connection>scm:git:https://github.com/michalovjan/empty.git</connection>
         <developerConnection>scm:git:git@github.com:michalovjan/empty.git</developerConnection>
         <url>https://github.com/michalovjan/empty.git</url>
-        <tag>HEAD</tag>
+        <tag>1.1.5.RC17</tag>
     </scm>
     <distributionManagement>
       <repository>
