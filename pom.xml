@@ -23,7 +23,7 @@
 
 
     <properties>
-        <tagSuffix>.HEYO</tagSuffix>
+	    <tagSuffix/>
     </properties>
     <build>
         <plugins>
