@@ -22,9 +22,6 @@
 
 
 
-    <properties>
-	    <tagSuffix/>
-    </properties>
     <build>
         <plugins>
             <plugin>
